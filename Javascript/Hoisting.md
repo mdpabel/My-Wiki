@@ -45,3 +45,11 @@ var func2 = function () {};
 - line-3 : we are storing function inside a variable, and when memory is allocated to variables it store undefined, so when we try to invoke the variable as a function, js finds undefined instead of a function, so it shows error that getName() is not a function as that is actually a normal variable that you're are trying to access as a function
 
 # Hoisting is the phenomenon in JS by which we can access variables and functions even before we have initialised it. We can access them without any error. Incase of function it's pretty clear that - Function declarations are scanned and are made available. But in case of my variable during memory creation phase it will be assigned undefined value.
+
+
+- Hosting works for all var, let and const. It's just variables defined by let and const are in temporal deadzone which cann't be accessible hence we get error. Else all three(var,let,const) are hoisted.
+
+- why var doesn't go to the temporal dead zone ?
+var doesn't go to temporal dead zone because it goes to global scope 
+Also temporal dead zone is a just a term
+let and const are block scope
