@@ -53,3 +53,7 @@ var func2 = function () {};
 var doesn't go to temporal dead zone because it goes to global scope 
 Also temporal dead zone is a just a term
 let and const are block scope
+
+<div align="center">
+    <img width="500" src="images/hoisting_04.png" />
+</div>
