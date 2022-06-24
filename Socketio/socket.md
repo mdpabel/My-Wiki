@@ -27,3 +27,5 @@ io.sockets.emit(); //send to all connected clients (same as socket.emit)
 
 io.sockets.on(); //initial connection from a client.
 ```
+
+- https://stackoverflow.com/questions/32674391/io-emit-vs-socket-emit
