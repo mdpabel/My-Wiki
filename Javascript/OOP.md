@@ -232,3 +232,7 @@ let immutableObject = Object.freeze({});
 ```
 
 Freezing an object does not allow new properties to be added to an object and prevents users from removing or altering the existing properties. Object.freeze() preserves the enumerability, configurability, writability and the prototype of the object. It returns the passed object and does not create a frozen copy.
+
+### Method overriding
+
+- To override method, Redefined the method on It's own constructor
